@@ -1,0 +1,26 @@
+<div class="container-content">
+  <div class="container-header">
+    <iframe  [src]="sanitizedUrl" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <button class="container-body">
+    <a class="link-container" href="">
+      <h2 class="title">
+        {{cardData.title}}
+      </h2>
+      <p class="text">
+        {{cardData.details}}
+      </p>
+    </a>
+  </button>
+
+  <div class="container-footer">
+    <div *ngFor="let item of cardData.language">
+      <img [src]="baseurl + item"  srcset="" width="40px">
+    </div>
+
+  </div>
+</div>
+
+
+

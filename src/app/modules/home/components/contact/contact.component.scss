@@ -1,0 +1,26 @@
+.content-container{
+  margin-top: 120px;
+  .content-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    .header-title{
+      color: #ffffff;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+    }
+  }
+
+  .content-body{
+    @media screen and (max-width:600px) {
+      padding: 70px;
+    }
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+}
+

@@ -1,0 +1,30 @@
+<div class="page">
+  <div class="container-page">
+      <div class="container-header">
+        <mat-toolbar>
+          <span class="presentation-name">
+            Portfólio
+
+          </span>
+          <div style="display: flex; align-items: center;">
+            <div class="container-languages">
+              <button (click)="languagePtbr()"><img width="48" height="42" src="../../../../../assets/icons/icon-brazil.png" alt="brazil"/></button>
+              <button (click)="languageEn()"><img width="48" height="48" src="../../../../../assets/icons/icon-usa.png" alt="usa"/></button>
+            </div>
+            <!-- Slider -->
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"  (click)="lightMode($event)" >
+            </div>
+          </div>
+
+        </mat-toolbar>
+      </div>
+      <div class="container-body">
+        <app-introducion [textData]="text_data.presentation"></app-introducion>
+        <app-about-me [textData]="text_data.about_me" [titleData]="title_data[0]"></app-about-me>
+        <app-skills-root [titleData]="title_data[1]"></app-skills-root>
+        <app-projects [titleData]="title_data[2]" [dataProjects]="dataProjects"></app-projects>
+        <app-contact [titleData]="title_data[3]"></app-contact>
+      </div>
+  </div>
+</div>

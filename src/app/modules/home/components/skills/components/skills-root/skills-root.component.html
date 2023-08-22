@@ -1,0 +1,15 @@
+<section class="content-container">
+
+  <div class="content-header">
+    <h1 class="header-title">
+      {{titleData}}
+    </h1>
+  </div>
+
+  <div class="content-body">
+    <div *ngFor="let item of skills_images">
+      <app-card-skills [url_card]="item"></app-card-skills>
+    </div>
+  </div>
+
+</section>
