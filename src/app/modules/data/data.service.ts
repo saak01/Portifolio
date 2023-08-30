@@ -33,13 +33,23 @@ export class DataService {
     title: "Pokedex Web Version",
     details: "Pokedex é um aplicativo criado por mim em Angular, projetado especificamente para fornecer informações sobre vários Pokémons.",
     language: ['ts-icon.png', 'html-icon.png', 'css-icon.png', 'angular-icon.png'],
-    link: 'https://www.youtube.com/embed/O94jVpxO0ng'
+    link: 'https://player.vimeo.com/video/856486982?h=bc29488391',
+    github: 'https://github.com/saak01/Pokedex-Angular'
   },
   {
     title: "Pokedex Flutter Version",
     details: "O Pokedex Flutter é um aplicativo desenvolvido por mim usando o Flutter framework. Ele foi projetado especificamente para fornecer informações sobre vários Pokémons.",
     language: ['dart-icon.png', 'flutter-icon.png'],
-    link: 'https://www.youtube.com/embed/Snls1fbEI7I'
+    link: 'https://player.vimeo.com/video/856487987?h=ae9ec42f84',
+    github: 'https://github.com/saak01/Pokedex-Flutter',
+
+  },
+  {
+    title: "Card Perfume",
+    details: "Perfume Card é um site cuidadosamente elaborado para apresentar um perfume exclusivo de maneira sofisticada e informativa. Desenvolvido com dedicação, este site oferece a chance de mergulhar nas nuances e detalhes únicos desse perfume excepcional.",
+    language: ['ts-icon.png', 'html-icon.png', 'css-icon.png', 'angular-icon.png'],
+    link: 'https://www.veed.io/embed/f2583af5-eef5-4879-ab8b-b1929e554fb1',
+    github: 'https://github.com/saak01/Product-Preview-Card'
   }
   ]
 
@@ -47,13 +57,23 @@ export class DataService {
     title: "Pokedex Web Version",
     details: "Pokedex is an application created by me in Angular, designed specifically to provide information about various Pokémon.",
     language: ["ts-icon.png", "html-icon.png", "css-icon.png", "angular-icon.png"],
-    link: 'https://www.youtube.com/embed/O94jVpxO0ng'
+    link: 'https://player.vimeo.com/video/856486982?h=bc29488391',
+    github: 'https://github.com/saak01/Pokedex-Angular'
+
   },
   {
     title: "Pokedex Flutter Version",
     details: "Pokedex Flutter is an application developed by me using the Flutter framework. It is designed specifically to provide information about various Pokémon.",
     language: ["dart-icon.png", "flutter-icon.png"],
-    link: 'https://www.youtube.com/embed/Snls1fbEI7I'
+    link: 'https://player.vimeo.com/video/856487987?h=ae9ec42f84',
+    github: 'https://github.com/saak01/Pokedex-Flutter',
+  },
+  {
+    title: "Card Perfume",
+    details: "Perfume Card is a meticulously crafted website designed to showcase a unique fragrance in a sophisticated and informative manner. Developed with dedication, this site offers you the opportunity to delve into the nuances and distinct details of this exceptional perfume.",
+    language: ['ts-icon.png', 'html-icon.png', 'css-icon.png', 'angular-icon.png'],
+    link: 'https://www.veed.io/embed/f2583af5-eef5-4879-ab8b-b1929e554fb1',
+    github: 'https://github.com/saak01/Product-Preview-Card'
 
   }
   ]
@@ -61,3 +81,4 @@ export class DataService {
 
   constructor() { }
 }
+

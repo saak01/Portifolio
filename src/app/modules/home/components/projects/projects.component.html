@@ -3,8 +3,9 @@
     <h1 class="header-title">{{titleData}}</h1>
   </div>
   <div class="content-body">
-      <app-card-projects  [cardData]="dataProjects[0]" urlYoutube="https://player.vimeo.com/video/856486982?h=bc29488391"></app-card-projects>
-      <app-card-projects  [cardData]="dataProjects[1]" urlYoutube="https://player.vimeo.com/video/856487987?h=ae9ec42f84"></app-card-projects>
+    <div *ngFor="let item of dataProjects">
+      <app-card-projects  [cardData]="item" [urlYoutube]="item.link"></app-card-projects>
+    </div>
   </div>
   <div class="content-footer">
     <button><a href="https://github.com/saak01" target="_blank">
