@@ -50,8 +50,17 @@ export class DataService {
     language: ['ts-icon.png', 'html-icon.png', 'css-icon.png', 'angular-icon.png'],
     link: 'https://www.veed.io/embed/f2583af5-eef5-4879-ab8b-b1929e554fb1',
     github: 'https://github.com/saak01/Product-Preview-Card'
+  },
+  {
+    title: "Weather App",
+    details: "O Weather App é uma aplicação inovadora desenvolvida para fornecer informações meteorológicas em tempo real para diversas localizações. Com esta aplicação, você terá acesso a atualizações precisas sobre as condições climáticas, previsões e muito mais.",
+    language: ['js-icon.png', 'html-icon.png', 'css-icon.png', ],
+    link: 'https://player.vimeo.com/video/874122850?h=f0f9e3277a',
+    github: 'https://github.com/saak01/Weather-App'
   }
   ]
+
+
 
   data_project_en = [{
     title: "Pokedex Web Version",
@@ -74,8 +83,17 @@ export class DataService {
     language: ['ts-icon.png', 'html-icon.png', 'css-icon.png', 'angular-icon.png'],
     link: 'https://www.veed.io/embed/f2583af5-eef5-4879-ab8b-b1929e554fb1',
     github: 'https://github.com/saak01/Product-Preview-Card'
-
+  },
+  {
+    title: "Weather App",
+    details: "The Weather App is an innovative application developed to provide real-time weather information for various locations. With this application, you will have access to accurate updates on weather conditions, forecasts, and more.",
+    language: ['js-icon.png', 'html-icon.png', 'css-icon.png', ],
+    link: 'https://player.vimeo.com/video/874122850?h=f0f9e3277a',
+    github: 'https://github.com/saak01/Weather-App'
   }
+
+
+
   ]
 
 
