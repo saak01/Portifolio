@@ -1,6 +1,6 @@
 <div class="page">
   <div class="container-page">
-      <div class="container-header">
+      <header class="container-header">
         <mat-toolbar>
           <span class="presentation-name">
             Portfólio
@@ -18,12 +18,14 @@
           </div>
 
         </mat-toolbar>
-      </div>
+
+      </header>
       <div class="container-body">
         <app-introducion [textData]="text_data.presentation"></app-introducion>
         <app-about-me [textData]="text_data.about_me" [titleData]="title_data[0]"></app-about-me>
         <app-skills-root [titleData]="title_data[1]"></app-skills-root>
         <app-projects [titleData]="title_data[2]" [dataProjects]="dataProjects"></app-projects>
+        <app-experiences [data]="experiences"  ></app-experiences>
         <app-contact [titleData]="title_data[3]"></app-contact>
       </div>
   </div>

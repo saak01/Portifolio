@@ -11,12 +11,13 @@ export class HomeRootComponent {
   text_data:any;
   title_data: string[] = [];
   dataProjects:any;
-
+  experiences:any;
 
   constructor(private dataService: DataService){
      this.text_data = dataService.data_text_pt_br;
      this.title_data = dataService.title_data_pt;
      this.dataProjects = dataService.data_project_pt;
+     this.experiences = dataService.experience_pt;
   }
 
   lightMode(event: Event){
@@ -32,12 +33,14 @@ export class HomeRootComponent {
     this.text_data = this.dataService.data_text_pt_br;
     this.title_data = this.dataService.title_data_pt;
     this.dataProjects = this.dataService.data_project_pt;
-
+    this.experiences = this.dataService.experience_pt;
   }
+
   languageEn():void {
     this.text_data = this.dataService.data_text_en;
     this.title_data = this.dataService.title_data_en;
     this.dataProjects = this.dataService.data_project_en;
+    this.experiences = this.dataService.experience_en;
   }
 
 }

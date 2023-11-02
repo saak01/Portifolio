@@ -20,6 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './modules/home/components/contact/contact.component';
 import { CardContactComponent } from './modules/shared/components/card-contact/card-contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ExperiencesComponent } from './modules/home/components/experiences/experiences.component';
+import { CardExperiencesComponent } from './modules/shared/components/card-experiences/card-experiences.component';
 
 
 @NgModule({
@@ -35,6 +37,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CardProjectsComponent,
     ContactComponent,
     CardContactComponent,
+    ExperiencesComponent,
+    CardExperiencesComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<section class="content-container">
+  <div class="content-header">
+    <h1 class="header-title">Experiências</h1>
+  </div>
+  <div class="content-body" *ngFor="let experience of data">
+    <app-card-experiences [data]="experience"></app-card-experiences>
+  </div>
+</section>

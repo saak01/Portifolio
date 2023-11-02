@@ -1,79 +1,66 @@
-.page {
-  .container-page {
-    .container-header {
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 2.5rem 1rem;
+}
 
-      .presentation-name {
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #6A7FDB;
-        @media screen and (max-width:600px){
-          font-size: 1.8rem;
-        }
+mat-icon {
+  color: #6A7FDB;
+}
 
+.title-name {
+  font-size: 24px;
+  color: #ffffff;
 
-      }
+}
 
-      .container-languages {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 10px;
+.form-check-input {
+  background-color: #6A7FDB;
+  height: 32px;
+  width: 70px;
 
-        @media screen and (max-width: 600px) {
-          display: flex;
-          justify-content: center;
-        }
-      }
-
-
-
-      button {
-        background: none;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .mat-sidenav {
-        width: 200px;
-        background-color: #f6f6f6f6;
-      }
-
-      mat-toolbar {
-        position: fixed;
-        top: 0;
-        display: flex;
-        justify-content: space-between;
-        background-color: #000000;
-        padding: 2.5rem 1rem;
-      }
-
-
-      mat-icon {
-        color: #6A7FDB;
-      }
-
-      .title-name {
-        font-size: 24px;
-        color: #ffffff;
-
-      }
-
-      .form-check-input {
-        background-color: #6A7FDB;
-        height: 32px;
-        width: 70px;
-
-        @media screen and (max-width:600px) {
-          height: 28px;
-          width: 55px;
-        }
-      }
-
-      .form-switch .form-check-input:checked {
-        background-color: #c6c6c6;
-      }
-    }
-
+  @media screen and (max-width:600px) {
+    height: 28px;
+    width: 55px;
   }
 }
+
+.form-switch .form-check-input:checked {
+  background-color: #c6c6c6;
+  border: none;
+}
+
+
+.container-languages {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.presentation-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6A7FDB;
+  @media screen and (max-width:600px){
+    font-size: 1.8rem;
+  }
+}
+
+
+button {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

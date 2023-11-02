@@ -1,0 +1,20 @@
+.content-container{
+  padding: 0px 6rem 0px 6rem;
+  margin-top: 9rem;
+
+  @media screen and (max-width: 600px) {
+    padding: 10px;
+  }
+  .content-header{
+    display: flex;
+    justify-content: center;
+    .header-title{
+      font-weight: bold;
+    }
+  }
+  .content-body{
+    height: 100%;
+    border-left: 10px #6A7FDB  solid;
+  }
+}
+

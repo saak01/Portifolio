@@ -1,12 +1,39 @@
 .content-container{
-  margin: 20px;
+  margin: 20px 15px 30px 15px;
   padding: 10px;
   background-color: #212121;
   height: 100px;
-  width: 90px;
+  width: 100px;
   border: #6A7FDB 3px solid;
   border-radius: 0 45px 0 0;
+
+
+  .tilte_card{
+    margin-top: 22px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+  }
 }
 .content-container:hover{
-  transform: scale(1.1);
+  .tilte_card{
+    display: block;
+  }
+  .tilte_card::after{
+    content: '';
+    display: block;
+    border: #6A7FDB 1px solid;
+    animation: line_animation 1s alternate;
+  }
+}
+
+@keyframes line_animation {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
 }

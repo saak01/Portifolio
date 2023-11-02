@@ -67,3 +67,21 @@
     }
   }
   }
+  @keyframes typing-animation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .presentation-name {
+    width: 10ch;
+    animation: typing-animation 2s steps(22), blink .5s step-end infinite ;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+
+  }

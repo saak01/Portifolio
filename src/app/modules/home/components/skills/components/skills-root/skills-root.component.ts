@@ -7,7 +7,7 @@ import { DataService } from 'src/app/modules/data/data.service';
   styleUrls: ['./skills-root.component.scss']
 })
 export class SkillsRootComponent {
-  skills_images: string[] = [];
+  skills_images: any[] = [];
   @Input() titleData = '';
 
   constructor( private dataService: DataService){

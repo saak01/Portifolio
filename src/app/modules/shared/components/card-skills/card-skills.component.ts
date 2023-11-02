@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-skills.component.scss']
 })
 export class CardSkillsComponent {
-  @Input() url_card: string = '';
+  @Input() url_card: any;
 
   constructor(){
 

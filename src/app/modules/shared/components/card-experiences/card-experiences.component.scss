@@ -1,0 +1,25 @@
+.card-title-name::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #6A7FDB;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.card-subtitle{
+  color: #828282;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.card-description{
+  @media screen and (min-width: 600px) {
+    width: 60%;
+  }
+  margin-left: 10px;
+  font-size: 18px;
+  color: #828282;
+}
+
