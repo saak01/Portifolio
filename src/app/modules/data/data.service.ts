@@ -18,7 +18,7 @@ export class DataService {
   experience_en = [
     {
       data_inital: "12/04/2022",
-      end_data: "12/05/2023",
+      data_end: "12/05/2023",
       name: "Pacto Soluções",
       role: "Data Analyst / Front-end Developer",
       description: "During my internship at Pacto Soluções, I worked as a Data Analyst and Front-end Developer. One of the standout projects was the creation of a data analysis dashboard, in which I played a key role. Using the Angular framework, I developed an intuitive and responsive interface, as well as integrated the payment system with the Stripe gateway. Additionally, I collaborated on the back-end using Node and utilized Git for code versioning. In addition to my Angular skills, I also had the opportunity to expand my knowledge in mobile development by exploring the Flutter platform. Through this experience, I gained proficiency in mobile app development, showcasing my ability to adapt and quickly learn new technologies."

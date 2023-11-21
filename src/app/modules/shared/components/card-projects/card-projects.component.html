@@ -1,6 +1,6 @@
 <div class="container-content">
   <div class="container-header">
-    <iframe  [src]="sanitizedUrl" frameborder="0" allowfullscreen></iframe>
+    <iframe [src]="sanitizedUrl" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <button class="container-body">
@@ -15,12 +15,16 @@
   </button>
 
   <div class="container-footer">
-    <div *ngFor="let item of cardData.language">
-      <img [src]="baseurl + item"  srcset="" width="40px">
+    <div class="container-tools">
+      <div  *ngFor="let item of cardData.language">
+        <img class="container-demo" [src]="baseurl + item" srcset="" width="40px">
+      </div>
+    </div>
+    <div *ngIf="cardData.demo != ''">
+      <a href={{cardData.demo}} target="_blank">
+        <img src="../../../../../assets/icons/demo-icon.png" width="40px" alt="" srcset="">
+      </a>
     </div>
 
   </div>
 </div>
-
-
-

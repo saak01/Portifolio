@@ -39,12 +39,11 @@
       display: flex;
       justify-content: center;
     }
-    .icon{
-      scale: 1;
-      color: #6A7FDB;
-     }
    }
 
   }
 }
 
+mat-icon{
+  color: #6A7FDB;
+}
