@@ -77,6 +77,14 @@ export class DataService {
 
   data_project_pt = [
     {
+      title: "Rick and Morty SPA",
+      details: "O Rick and Morty SPA é uma Single Page Application desenvolvida para proporcionar uma experiência única na exploração do universo da série. Utilizando a API Rick & Morty para o consumo de dados, a aplicação segue o modelo de dashboard, apresentando listagens e detalhes dos personagens.",
+      language: ["angular-icon.png", "html-icon.png","css-icon.png"],
+      link: 'https://www.youtube.com/embed/ug-HXczp1Ng?si=zNzJSO-nnb4e5t8z',
+      github: 'https://github.com/saak01/Desafio-Rick-Morty',
+      demo:"https://central-rick-morr.web.app/login",
+    },
+    {
       title: "Sushi App",
       details: "Sushi-App é um cardápio digital inovador para pedidos de sushi e bebidas. Com um design intuitivo, os usuários exploram opções, veem imagens e descrições, fazem pedidos com facilidade. Uma solução eficiente para restaurantes de sushi com opções de pagamento integradas, tornando o processo de pedido conveniente.",
       language: ["dart-icon.png", "flutter-icon.png","firebase-icon.png"],
@@ -123,6 +131,14 @@ export class DataService {
 
 
   data_project_en = [
+    {
+      title: "Rick and Morty SPA",
+      details: "The Rick and Morty SPA is a Single Page Application designed to provide a unique experience in exploring the universe of the series. Utilizing the Rick & Morty API for data consumption, the application follows the dashboard model, showcasing listings and details of the characters.",
+      language: ["angular-icon.png", "html-icon.png","css-icon.png"],
+      link: 'https://www.youtube.com/embed/ug-HXczp1Ng?si=zNzJSO-nnb4e5t8z',
+      github: 'https://github.com/saak01/Desafio-Rick-Morty',
+      demo:"https://central-rick-morr.web.app/login",
+    },
     {
       title: "Sushi App",
       details: "Sushi-App is an innovative digital menu for sushi and beverage orders. With an intuitive design, users explore options, view images and descriptions, and place orders easily. An efficient solution for sushi restaurants with integrated payment options, making the ordering process convenient.",
