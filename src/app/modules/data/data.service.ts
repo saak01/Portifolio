@@ -77,6 +77,14 @@ export class DataService {
 
   data_project_pt = [
     {
+      title: "Easy-Bank-LP",
+      details: "A Easy Bank Landing Page é um projeto desenvolvido em Angular como parte do desafio Front End Mentor. O objetivo é criar uma landing page atraente para promover o Easy Bank. ",
+      language: ["angular-icon.png", "html-icon.png","css-icon.png"],
+      link: 'https://www.youtube.com/embed/P_zn2Kraxbg?si=4QmzpKhXK-o9IRSo',
+      github: 'https://github.com/saak01/Easy-Bank-LP',
+      demo:"http://localhost:4200/welcome",
+    },
+    {
       title: "Rick and Morty SPA",
       details: "O Rick and Morty SPA é uma Single Page Application desenvolvida para proporcionar uma experiência única na exploração do universo da série. Utilizando a API Rick & Morty para o consumo de dados, a aplicação segue o modelo de dashboard, apresentando listagens e detalhes dos personagens.",
       language: ["angular-icon.png", "html-icon.png","css-icon.png"],
@@ -131,6 +139,14 @@ export class DataService {
 
 
   data_project_en = [
+    {
+      title: "Easy-Bank-LP",
+      details: "A Easy Bank Landing Page is a project developed in Angular as part of the Front End Mentor challenge. The goal is to create an attractive landing page to promote Easy Bank.",
+      language: ["angular-icon.png", "html-icon.png","css-icon.png"],
+      link: 'https://www.youtube.com/embed/P_zn2Kraxbg?si=4QmzpKhXK-o9IRSo',
+      github: 'https://github.com/saak01/Easy-Bank-LP',
+      demo:"http://localhost:4200/welcome",
+    },
     {
       title: "Rick and Morty SPA",
       details: "The Rick and Morty SPA is a Single Page Application designed to provide a unique experience in exploring the universe of the series. Utilizing the Rick & Morty API for data consumption, the application follows the dashboard model, showcasing listings and details of the characters.",
