@@ -82,7 +82,7 @@ export class DataService {
       language: ["angular-icon.png", "html-icon.png","css-icon.png"],
       link: 'https://www.youtube.com/embed/P_zn2Kraxbg?si=4QmzpKhXK-o9IRSo',
       github: 'https://github.com/saak01/Easy-Bank-LP',
-      demo:"http://localhost:4200/welcome",
+      demo:"https://easy-bank-99c59.web.app/welcome",
     },
     {
       title: "Rick and Morty SPA",
@@ -145,7 +145,8 @@ export class DataService {
       language: ["angular-icon.png", "html-icon.png","css-icon.png"],
       link: 'https://www.youtube.com/embed/P_zn2Kraxbg?si=4QmzpKhXK-o9IRSo',
       github: 'https://github.com/saak01/Easy-Bank-LP',
-      demo:"http://localhost:4200/welcome",
+      demo:"https://easy-bank-99c59.web.app/welcome",
+
     },
     {
       title: "Rick and Morty SPA",
