@@ -12,6 +12,7 @@
 
   }
 
+
   span{
     color: #ffffff;
   }
@@ -77,7 +78,7 @@
   }
 
   .presentation-name {
-    width: 9ch;
+    width: 14ch;
     animation: typing-animation 2s steps(22), blink .3s step-end infinite ;
     white-space: nowrap;
     overflow: hidden;
@@ -85,3 +86,17 @@
     font-size: 2em;
 
   }
+
+  .button-curriculum-container{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    .button-curriculum{
+      background-color: #6A7FDB;
+      border: none;
+      border-radius: 12px;
+      color: #ffffff;
+      height: 50px;
+      width: 120px;
+    }
+  }
+
