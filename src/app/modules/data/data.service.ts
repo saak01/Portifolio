@@ -77,6 +77,14 @@ export class DataService {
 
   data_project_pt = [
     {
+      title: "Holambra-LP",
+      details: "A Holambra Landing Page é um projeto desenvolvido em Angular. O objetivo é criar uma landing page atraente, seguindo os padrões de design.",
+      language: ["angular-icon.png", "html-icon.png","css-icon.png"],
+      link: 'https://www.youtube.com/embed/C8kYSJquaXM?si=oePpUxtK0G5bdFil',
+      github: 'https://github.com/saak01/Holambra-LP',
+      demo:"https://holambra-a22c0.web.app/",
+    },
+    {
       title: "Easy-Bank-LP",
       details: "A Easy Bank Landing Page é um projeto desenvolvido em Angular como parte do desafio Front End Mentor. O objetivo é criar uma landing page atraente para promover o Easy Bank. ",
       language: ["angular-icon.png", "html-icon.png","css-icon.png"],
@@ -139,6 +147,14 @@ export class DataService {
 
 
   data_project_en = [
+    {
+      title: "Holambra-LP",
+      details: "Holambra Landing Page is a project developed in Angular. The objective is to create an attractive landing page, following design standards.",
+      language: ["angular-icon.png", "html-icon.png","css-icon.png"],
+      link: 'https://www.youtube.com/embed/C8kYSJquaXM?si=oePpUxtK0G5bdFil',
+      github: 'https://github.com/saak01/Holambra-LP',
+      demo:"https://holambra-a22c0.web.app/",
+    },
     {
       title: "Easy-Bank-LP",
       details: "A Easy Bank Landing Page is a project developed in Angular as part of the Front End Mentor challenge. The goal is to create an attractive landing page to promote Easy Bank.",
